@@ -5,11 +5,11 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval(seconds)*/	/*Update Signal*/
 	// {"Mem: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0},
 	spacer,
+  {"",  "~/.local/bin/get_battery.sh",         30,   0},
+	spacer,
 	{"",  "~/.local/bin/get_brightness.sh",      0,  10},
 	spacer,
 	{"",  "~/.local/bin/get_volume.sh",          0,  10},
-	spacer,
-  {"",  "~/.local/bin/get_battery.sh",         30,   0},
 	spacer,
 	{"",  "~/.local/bin/get_date.sh",            30,   0},
 	spacer,
