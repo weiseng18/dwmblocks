@@ -9,7 +9,7 @@ static const Block blocks[] = {
 	spacer,
 	{"",  "~/.local/bin/get_volume.sh",          0,  10},
 	//	spacer,
-    	// {"",  "~/.local/bin/get_battery.sh",          2,   0},
+  {"",  "~/.local/bin/get_battery.sh",         30,   0},
 	spacer,
 	{"",  "~/.local/bin/get_date.sh",            30,   0},
 	spacer,
